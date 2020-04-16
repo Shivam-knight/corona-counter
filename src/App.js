@@ -34,6 +34,11 @@ class App extends React.Component{
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country}/>
+                <div class="row">
+                    <div class="col text-light text-center">
+                        <p>&copy; Copyright 2020,Made by Shivam bhatnagar</p>
+                    </div>
+                 </div>
 
             </div>
         )
