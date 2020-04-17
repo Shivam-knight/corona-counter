@@ -1,9 +1,4 @@
 import React from 'react';
-
-// import Cards from './components/Cards/Cards';
-// import Charts from './components/Chart/Chart';
-// import CountryPicker from './components/CountryPicker/CountryPicker';
-
 import coronaImage from './images/image.png';
 import{
     Cards,Chart,CountryPicker
@@ -32,7 +27,7 @@ class App extends React.Component{
         this.setState({data:fetchedData, country: country});
     }
     render(){
-        initilizeAnalytics();
+        initilizeAnalytics()
         const{data, country}=this.state;
         return(
 
