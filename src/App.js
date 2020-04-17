@@ -5,7 +5,7 @@ import{
 } from './components';
 import styles from './App.module.css';
 import{fetchData} from './api';
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga';
 
 function initilizeAnalytics(){
     ReactGA.initialize('UA-163807935-1')
